@@ -2,12 +2,12 @@
 
 ### To Do
 
-[] Objects are a data structure
-[] How to access objects' values
-[] Objects = references
-[] How to navigate complicated objects
-[] Loop through objects
-[] Functions in objects
+- [x] Objects are a data structure
+- [x] How to access objects' values
+- [x] Objects = references
+- [x] How to navigate complicated objects
+- [x] Loop through objects
+- [x] Functions in objects
 
 ### Useful Link
 
