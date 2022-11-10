@@ -1,0 +1,45 @@
+// Partials
+@import "variables";
+
+h1 {
+  color: $primary-color;
+}
+
+article {
+  border: 1px $border-style $primary-color;
+}
+
+// Nesting
+article {
+  margin: 1em;
+
+  section {
+    font-size: 2rem;
+
+    h1 {
+      color: $primary-color;
+    }
+  }
+}
+
+// Extend
+.header {
+  font-size: 2em;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.colorful-header {
+  @extend .header;
+  color: aquamarine;
+}
+
+// Mixins
+@mixin header-styles($n) {
+  height: $n;
+  background-color: $primary-color;
+  width: 2 * $n;
+}
+
+header {
+  @include header-styles(20px);
+}

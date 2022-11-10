@@ -1,0 +1,32 @@
+h1 {
+  color: skyblue;
+}
+
+article {
+  border: 1px dotted skyblue;
+}
+
+article {
+  margin: 1em;
+}
+article section {
+  font-size: 2rem;
+}
+article section h1 {
+  color: skyblue;
+}
+
+.header, .colorful-header {
+  font-size: 2em;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.colorful-header {
+  color: aquamarine;
+}
+
+header {
+  height: 20px;
+  background-color: skyblue;
+  width: 40px;
+}
